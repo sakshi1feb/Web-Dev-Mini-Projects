@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"lato", sans-serifff;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff,#a8f5ff);
+}
+.inner-box{
+    width: 400px;
+    margin:0 auto;
+    position: relative;
+    top:40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #2773a5;
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    color:#212121;
+}
+.signup-header p{
+    font-size: 0.9rem;
+    color: #555;
+}
+.signup-body{
+    margin: 20px 0;
+}
+.signup-body form p{
+    margin: 10px 0;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input{
+    width: 100%;
+    margin-top: 4px;
+    padding: 10px;
+    border: 2px solid #cccccc;
+    border-radius:4px;
+    font-size:1rem;
+}
+.signup-body p input[type="submit"]{
+    background-color: #3498db;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color: #2773a5;
+}
+.signup-footer p{
+        color: #555;
+        text-align: center;
+}
+.signup-footer p a{
+    color:#2773a5;
+}
