@@ -146,3 +146,16 @@ header{
 }
 /*header section ends here*/
 
+/* companies section starts */
+.companies-header{
+    margin-block: 30px;
+    color:var(--primary-text-color) ;
+}
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 46px;
+}
+/* companies section ends here */
