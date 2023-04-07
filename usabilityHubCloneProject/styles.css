@@ -190,7 +190,11 @@ header{
     max-width: 30%;
     text-align: center;
 }
+.feature-card img{
+    width: 50px;
+}
 /* features section ends here */
+
 /* big feature section starts here */
 .big-feature-section{
     padding:30px var(--padding-inline-section);
