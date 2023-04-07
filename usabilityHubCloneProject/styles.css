@@ -266,3 +266,22 @@ header{
         margin-top: 20px;
     }
 /* cta section ends here */
+
+/* footer section starts here */
+    footer{
+        padding-block: 80px;
+        background: linear-gradient(#ebf2fa,rgb(255,255,255,0.1));
+    }
+    .footer-container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .link-column{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+/* footer sectiion ends here */
+
+
