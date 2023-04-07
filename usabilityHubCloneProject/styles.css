@@ -284,4 +284,13 @@ header{
     }
 /* footer sectiion ends here */
 
-
+/* subfooter section starts */
+    .sub-footer{
+        background-color: #b9cde4;
+        padding:var(--padding-inline-section);
+    }
+    .sub-footer-container{
+        justify-content:center;
+        gap:30px;
+    }
+/* subfooter section ends here */
