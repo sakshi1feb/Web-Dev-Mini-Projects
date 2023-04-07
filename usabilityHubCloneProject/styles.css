@@ -252,3 +252,17 @@ header{
     box-shadow: 0 0 10px #888;
 }
 /* example section ends here */
+
+/* cta section starts here */
+    .cta-section-container{
+        flex-direction:column;
+        gap:30px;
+        color:var(--primary-text-color)
+    }
+    .cta-section{
+        padding: 120px var(--padding-inline-section) 80px;
+    }
+    .cta-section-container p{
+        margin-top: 20px;
+    }
+/* cta section ends here */
