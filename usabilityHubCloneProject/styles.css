@@ -190,3 +190,20 @@ header{
     max-width: 30%;
     text-align: center;
 }
+/* features section ends here */
+/* big feature section starts here */
+.big-feature-section{
+    padding:30px var(--padding-inline-section);
+}
+.big-feature-container{
+    gap:30px;
+
+}
+.feature-image img{
+    width:100%;
+}
+.feauture-desc{
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* big feature section ends here */
