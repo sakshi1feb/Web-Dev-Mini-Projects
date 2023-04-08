@@ -124,6 +124,7 @@ ul{
     flex-basis: 730px;
 }
 /* nav bar classes ends here */
+
 /* header section starts here */
 header{
     padding: 50px var(--padding-inline-section);
@@ -211,6 +212,7 @@ header{
     align-items: flex-start;
 }
 /* big feature section ends here */
+
 /* example section starts here */
 .example-header{
     text-align: center;
@@ -256,6 +258,43 @@ header{
     box-shadow: 0 0 10px #888;
 }
 /* example section ends here */
+
+/* pannel section starts here */
+.pannel-section{
+    background-color: #183b54;
+}
+.pannel-container{
+    justify-content: space-between;
+}
+.pannel-text {
+    color:white;
+    margin:20px;
+    padding:var(--padding-inline-section);
+}
+.pannel-text p{
+    color:#577592;
+    font-weight: 700;
+}
+.pannel-image img{
+    width:100%;
+}
+.lists{
+    flex-direction: row;
+    justify-content: space-between;
+    color:var(--secondary-text-color);
+    padding-bottom: var(--padding-inline-section);
+}
+.list-link{
+    color:var(--secondary-text-color);
+}
+.list-link:hover{
+    color:var(--accent-color);
+    transition: 0.2s ease-out;
+}
+.lists ul{
+    list-style-type: disc;
+}
+/* pannel section ends here*/
 
 /* cta section starts here */
     .cta-section-container{
