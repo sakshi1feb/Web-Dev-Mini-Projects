@@ -70,6 +70,7 @@ ul{
     color:white !important;
     font-weight: 700;
     transition:0.2s ease-out;
+    text-align: center;
     box-shadow: 0 0 2px var(--secondary-text-color);
 }
 .primary-button:hover{
@@ -209,6 +210,9 @@ header{
     gap:30px;
 
 }
+#second-big-feature{
+    flex-direction: row-reverse;
+}
 .feature-image img{
     width:100%;
 }
@@ -341,5 +345,6 @@ header{
     .sub-footer-container{
         justify-content:center;
         gap:30px;
+        flex-wrap: wrap;
     }
 /* subfooter section ends here */
