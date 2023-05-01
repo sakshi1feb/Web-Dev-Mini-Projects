@@ -50,6 +50,7 @@ ul{
     max-width: 1180px;
     margin-inline: auto; /*this is for left and right margin*/
     padding-inline: var(--padding-inline-section);
+    overflow:hidden;
 }
 .flex{
     display: flex;
@@ -123,6 +124,9 @@ ul{
 .nav-link{
     flex-basis: 730px;
 }
+.nav-toggle{
+    display:none;
+}
 /* nav bar classes ends here */
 
 /* header section starts here */
@@ -140,7 +144,7 @@ header{
     margin-top: 20px;
 }
 .header-right img{
-    width: 600px;
+    width: 100%;
 }
 .get-started-button{
     margin:20px;
@@ -153,8 +157,9 @@ header{
     color:var(--primary-text-color) ;
 }
 .logos{
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap:20px;
 }
 .logo{
     height: 46px;
@@ -182,7 +187,7 @@ header{
 .feature-area{
     flex-wrap:wrap;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
     margin-top: 20px;
 }
 .feature-card{
@@ -222,11 +227,12 @@ header{
 .example-area{
     justify-content: space-between;
     margin-block: 30px;
+    flex-wrap:wrap;
 }
 .example-card{
     width:23%;
     position: relative;
-    min-height: 300px;
+    height: 300px;
     background-color: black;
     transition: 0.2s ease-out;
 }
