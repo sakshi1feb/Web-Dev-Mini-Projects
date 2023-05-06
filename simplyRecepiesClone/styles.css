@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+:root{
+    --background-color:#f8fafc;
+    --link-hover-color:#645cff;
+    --background-btn-color-hover:#3c3799;
+}
+/* style reset classes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background-color);
+    font-family: 'Nunito', sans-serif;
+    font-size:16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color:black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* Utility Classes */
+.container{
+    margin:30px 123px;
+    }
+.flex{
+    display: flex;
+    align-content: center;
+    justify-content: start;
+}
+
+/* nav classes */
+.nav-section{
+    text-align: center;
+    padding-block:12px;
+}
+.nav-element{
+    padding-left:32px;
+    font-weight: bold;
+}
+.nav-link{
+    transition:0.3s ease-in;
+}
+.nav-link:hover{
+    color:var(--link-hover-color);
+}
+.contact-btn{
+    margin-left: 450px;
+    margin-right:123px;
+    min-width: 94px;
+    min-height: 33px;
+    background-color:var(--link-hover-color) ;
+    padding:3px 16px;
+    border-radius: 4px;
+    color:#fff;
+    transition: 0.2s ease-in-out;
+}
+.contact-btn:hover{
+    background-color: var(--background-btn-color-hover);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
