@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+/* initial resets */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f8fafc;
+    width: 100vw;
+    font-family: "Nunito",sans-serif;
+    }
+
+    h1{
+        color:#645cff;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 31px;
+
+    }
+    h2{
+        color:white;
+        padding:19px;
+        font-weight: bolder;
+        font-size:40px;
+        line-height: 50px;
+        letter-spacing: 3px;
+        text-align: left;
+    }
+ul{
+    list-style: none;
+}
+nav{
+    background-color: #fff;
+    height:4rem;
+    margin-bottom: 20px;
+    padding:20px;
+    width:100%;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+button{
+    text-transform:uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    width:149px;
+    height:42px;
+    line-height: 28px;
+    padding:5px;
+    border-radius: 5px;
+
+}
+/* utility classes */
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.nav-element{
+    text-align: left;
+    line-height: 28px;
+    letter-spacing: normal;
+}
+.list-item{
+    align-content: center;
+    font-size: 16px;
+    padding-top: 25%;
+    padding-right: 16px;
+    color:black;
+    font-weight: 500;
+}
+.list-item:hover{
+    color:#645cff;
+    transition: all 0.2s ease-in;
+    cursor:pointer;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.color-flipper{
+    margin: 215px 330px;
+    margin-bottom: 40px;
+    width:707px;
+    height:83px;
+    background-color: #222;
+    border-radius:7px;
+}
+.color-name{
+    color:#645cff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size:40px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    text-align: left;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #222;
+    color:white;
+    transition: all 0.5s ease-in;
+}
+/* adding media queries */
+@media (max-height:700px){
+}
